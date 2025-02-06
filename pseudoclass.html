@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pseudo-Document</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+        input[type=radio]:checked+label~.hidden{
+            color:red;
+            background-color: aqua;
+            font-size: 20px;
+            display: block;
+        }
+        input[type=checkbox]:checked+label{
+            color: green;
+            background-color: aqua;
+            font-size: larger;
+        }
+        .gradi{
+            background:linear-gradient(to left,#ffaa11,rgba(200,150,250,0.5),green);
+            width:40vw;
+            text-align: center;
+        }
+        #gradi2{
+          background: radial-gradient(circle,pink,yellow,rgba(83, 50, 250, 0.6));
+          height: 300px;
+          width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox"/>
+
+    <label>CheckBox</label>
+    <input type="radio"/>
+    <label>Radio</label>
+    <p class="hidden">This is hiddden data</p>
+    <div class="gradi" >
+      <h2>Abi</h2>
+    </div>
+    <div id='gradi2'>
+    </div>
+</body>
+</html>

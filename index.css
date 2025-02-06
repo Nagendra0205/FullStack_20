@@ -1,0 +1,61 @@
+/*body{
+    /*background-image: url("https://media.gettyimages.com/id/172202755/photo/usa-view.jpg?s=612x612&w=gi&k=20&c=dNY9DGbpk7C7eo1RPyAMo_pS6mBeZA-l8_8QcH4ALCQ=");
+   
+   
+   background-image: url("./download.jfif");
+                         
+   background-repeat:no-repeat;
+   background-position: center;
+   background-size: cover;
+    color:green;
+    background-color: red;
+    display: flex;
+    position:absolute;
+    
+
+
+}
+.divi{
+    position: relative;
+}
+h2{
+    color:red;
+}
+
+#data{
+    color:green;
+    background-color:red;
+    
+}
+.data2{
+    color:red;
+    background-color: green;
+    display:inline;
+}
+.data3{
+    display:flex;
+}
+.data3 h4{
+    color:pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight:lighter;
+    font-style: italic;
+    letter-spacing:15px;
+    word-spacing: 10px;
+    padding:10px ;
+    margin:50px 50px 40px 50px;
+    border: 2px green dotted;
+    width :400px;
+    box-sizing: border-box;
+    display: inline;
+    
+}
+.moon{
+    width:75%;
+    height:200px;
+    margin:50px;
+   
+
+}
+    */
